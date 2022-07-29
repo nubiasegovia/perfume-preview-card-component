@@ -8,7 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Table of contents](#table-of-contents)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
-    - [Gif for demo](#gif-for-demo)
+    - [Preview](#preview)
     - [Desktop design](#desktop-design)
     - [Mobile design](#mobile-design)
 
@@ -21,7 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-### Gif for demo
+### Preview
+
+[Live Preview](https://nubiasegovia.github.io/perfume-preview-card-component/)
 
 ![Gif for demo](./design/screenshots/cardcomponent.gif)
 
