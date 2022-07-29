@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+*{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6%; 
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.btn-add {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.btn-add:hover {
+    background-color: hsl(157, 43%, 21%);
+}
+
+.product-img{
+    height: 100%;
+    width: 100%;
+}
+.product-img img {
+    max-height: 360px;
+   width: 100%;
+   height: auto;
+   border-radius: 20px 0 0 20px;
+}
+
+.infos { 
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.title p:first-child{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.title h1{
+    font-family: 'Fraunces', serif;
+    margin: 15px 0;
+    width: 85%;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.infos .description {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    width: 90%;
+}
+
+.prices {
+    display: flex;
+    width: 90%;
+    margin: 15px 0;
+    align-items: center;
+    column-gap: 15%;
+}
+
+.prices p:first-child {
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+}
+
+.prices p:nth-child(2){
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 0.7rem;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%)
+}
+
+@media (max-width:619px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%);  
+    }
+
+    .product-img img {
+       width: 100%;
+       border-radius: 20px 20px 0 0;
+    }
+
+    .infos {
+        display: flex;
+        margin: 3%;
+        width: 90%;
+    }
+
+    .btn-add {
+        margin-left: 5%;
+    }
+    
+}

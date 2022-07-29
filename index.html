@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+<body>
+
+  <main class="container">
+      <picture class="product-img">
+        <source media="(min-width: 620px" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg">
+      </picture>
+      <article class="infos">
+        
+        <div class="title">
+          <p>Perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </div>
+      
+        <div class="description">
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        
+        
+        <div class="prices">
+          <p>$149.99</p>
+          <p>$169.99</p>
+        </div>
+      
+        <button class="btn-add" type="button">
+          <img src="./images/icon-cart.svg"> &nbspAdd to Cart
+        </button>
+    </article>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by &nbsp<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by &nbsp<a href="https://github.com/nubiasegovia">Núbia Segóvia</a>.
+  </footer>
+</body>
+</html>
